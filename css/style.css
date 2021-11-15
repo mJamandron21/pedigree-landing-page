@@ -785,10 +785,6 @@ section {
   color: #130f40;
 }
 
-.footer .share a::before {
-  background: #fff;
-}
-
 .footer .share a i {
   padding-right: .5rem;
 }
