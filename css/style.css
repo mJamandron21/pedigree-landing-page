@@ -915,6 +915,28 @@ section {
   
 }
 
+@media (max-width: 420px) {
+  html {
+    font-size: 30%;
+  }
+  .header .login-form {
+    width: 70%;
+  }
+
+  .home {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+     background-position: 30% 0;
+  }
+
+  .contact {
+    padding: 2rem 0; 
+    /* gap: 3rem; */
+  }
+  
+}
+
 @media (max-width: 360px) {
   html {
     font-size: 30%;
