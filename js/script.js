@@ -30,3 +30,22 @@ window.onload = () =>{
         document.querySelector('.header').classList.remove('active');
     }
 }
+
+
+const loadmore = document.querySelector('#loadMore');
+    let currentItems = 8;
+    loadmore.addEventListener('click', (e) => {
+        const elementList = [...document.querySelectorAll('.box-container .box')];
+        for (let i = currentItems; i < currentItems + 4; i++) {
+            if (elementList[i]) {
+                elementList[i].style.display = 'block';
+            }
+        }
+        currentItems += 4;
+
+        // Load more button will be hidden after list fully loaded
+        if (currentItems >= elementList.length) {
+            e.target.style.display = 'none';
+        }
+    })
+
