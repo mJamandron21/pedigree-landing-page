@@ -523,6 +523,7 @@ section {
   -ms-grid-columns: (minmax(50rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   gap: 2.5rem;
+  padding-bottom: 60px;
   
 }
 
@@ -565,12 +566,14 @@ section {
 }
 
 
+
 .services2 .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(50rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   gap: 2.5rem;
+  padding-bottom: 60px;
   
 }
 
