@@ -1,7 +1,13 @@
 let loginForm = document.querySelector('.header .login-form');
+let cartForm = document.querySelector('.header .cart-form');
 
 document.querySelector('#login-btn').onclick = () =>{
     loginForm.classList.toggle('active');
+    navbar.classList.remove('active');
+}
+
+document.querySelector('#cart-btn').onclick = () =>{
+    cartForm.classList.toggle('active');
     navbar.classList.remove('active');
 }
 

@@ -178,6 +178,47 @@ section {
   color: #a11e19;
 }
 
+.header .cart-form {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  width: 35rem;
+  border-radius: 1rem;
+  background: #fff;
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: none;
+}
+
+.header .cart-form.active {
+  display: block;
+  -webkit-animation: fadeIn .4s linear;
+          animation: fadeIn .4s linear;
+}
+
+.header .cart-form h3 {
+  color: #e4a700;
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
+}
+
+.header .icons .badge:after {
+  content: attr(data-count);
+  position: relative;
+  background: #a11e19;
+  height: 1rem;
+  width: 2rem;
+  padding: 7px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 90%;
+  color: white;
+  border: 1px solid #a11e19;
+  font-family: sans-serif;
+}
+
+
 .header .login-form {
   position: absolute;
   top: 120%;
