@@ -168,7 +168,7 @@ section {
 .header .icons a,
 .header .icons div {
   font-size: 2.5rem;
-  margin-left: 2rem;
+  margin-left: 1.7rem;
   color: #eee;
   cursor: pointer;
 }
@@ -216,7 +216,7 @@ section {
   border-radius: 90%;
   color: white;
   border: 1px solid #a11e19;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
